@@ -12,8 +12,5 @@ class ProdutoController extends Controller
         return view('produto.index', ['produtos' => Produto::all()]);
     }
 
-    public function imagens()
-    {
-        return $this->hasMany(Imagem::class,'PRODUTO_ID', 'PRODUTO_ID');
-    }
+    
 }

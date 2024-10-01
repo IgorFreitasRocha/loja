@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo\logo-alpha-dark.svg" type="image/x-icon">
     <link rel="stylesheet" href="css\main.css">
-    <title>Document</title>
+    <title>Alpha - Home</title>
 </head>
     <body>
+
+    <!-- Menu Inicial -->
 
     <nav class="nav">
         <a href="#" class="logo">
@@ -22,12 +25,12 @@
             <input type="text" placeholder="Pesquisar produto">
             <button class="btn btn-pesquisa">Pesquisar</button>
         </did>
-        
-        
     </nav>
 
+    <!-- Carrosel de imagens -->
 
 
+    <!-- Lista de Produtos -->
 
     <div class="container">
         <h1 class="main-title">Produtos</h1>
@@ -37,7 +40,6 @@
         <button class="btn btn-comprar">Comprar</button>
         <button class="btn btn-carrinho">Carrinho</button>
 
-    </div>
         
     </body>
 </html>

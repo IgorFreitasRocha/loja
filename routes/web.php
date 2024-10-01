@@ -2,11 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutoController;
-use App\Http\Controllers\ImagemController;
+
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Rota para Produtos
-
-Route::get('/', [ProdutoController::class, 'index']);
+Route::get('/produto', [ProdutoController::class, 'index']);
 
 
 
