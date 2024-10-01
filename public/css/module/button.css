@@ -1,0 +1,29 @@
+.btn{
+    width: 120px;
+    height: 30px;
+    color: var(--cor-branca);
+    border-radius: 25px;
+    font-family: var(--font-noto-sans);
+    cursor: pointer;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-comprar{
+    background-color: #37c514;
+}
+
+.btn-carrinho{
+    background-color: #f1c40f;
+    color: var(--cor-preta);
+}
+
+.btn-pesquisa{
+    background-color: var(--cor-logo);
+    color: var(--cor-preta);
+    border-radius: 4px;
+}

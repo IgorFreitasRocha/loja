@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+
+:root{
+    --w-logo: 90px;
+    --h-logo: 90px;
+    --h-nav: 50px;
+    --font-noto-sans: "Noto Sans";
+    --cor-preta: black;
+    --cor-branca: white;
+    --cor-logo: #34c9ff;
+    --cor-bg: #2c2c2c;
+    
+}
