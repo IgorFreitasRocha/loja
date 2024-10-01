@@ -10,8 +10,8 @@ class Produto extends Model
 {
     use HasFactory;
 
-    protected $table = 'PRODUTOS';
-    protected $primaryKey = 'PRODUTOS_ID';
+    protected $table = 'PRODUTO';
+    protected $primaryKey = 'PRODUTO_ID';
 
 
 }

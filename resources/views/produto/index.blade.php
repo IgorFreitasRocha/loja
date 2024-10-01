@@ -40,6 +40,16 @@
         <button class="btn btn-comprar">Comprar</button>
         <button class="btn btn-carrinho">Carrinho</button>
 
+
+        <div class="produtos">
+            @foreach($produtos as $produto)
+                <div class="produto">
+                    <img src="{{ $produto->imagem }}" alt="{{ $produto->nome }}">
+                    <h2>{{ $produto->PRODUTO_NOME }}</h2>
+                    <p>R$ {{ $produto->PRODUTO_PRECO }}</p>
+                </div>
+            @endforeach
+
         
     </body>
 </html>
