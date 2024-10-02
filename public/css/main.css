@@ -2,10 +2,11 @@
 @import "base/variaveis.css";
 @import "base/tipografia.css";
 
-
-
-
 @import "layout/nav.css";
 @import "layout/carrosel.css";
+@import "layout/categoria.css";
+@import "layout/container.css";
 
+@import "module/card.css";
 @import "module/button.css";
+@import "module/badge.css";

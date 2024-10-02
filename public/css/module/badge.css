@@ -1,0 +1,29 @@
+.badge{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 0.25rem;
+    padding: 0.25em 0.4em;
+    font-size: 60%;
+    font-weight: 500;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    margin-right: 5px;
+    font-family: var(--font-noto-sans);
+    text-transform: uppercase;
+}
+
+.badge-desconto{
+    color: #fff;
+    background-color: #ffa600;
+}
+
+.badge-semdesconto{
+    color: #fff;
+    background-color: #142ec0;
+}
+
+.badge-destaque{
+    color: #fff;
+    background-color: #ff0000;
+}

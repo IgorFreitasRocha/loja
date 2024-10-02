@@ -1,5 +1,5 @@
 .btn{
-    width: 120px;
+    width: 100px;
     height: 30px;
     color: var(--cor-branca);
     border-radius: 25px;
@@ -9,21 +9,37 @@
     text-transform: uppercase;
 }
 
-.btn:hover{
-    opacity: 0.8;
+.btn-comprar{
+    background-color: var(--cor-branca);
+    border: 1px solid #0fd41f;
+    color: #0fd41f;
+    margin: 10px;
 }
 
-.btn-comprar{
-    background-color: #37c514;
+.btn-comprar:hover{
+    background-color: #0fd41f;
+    color: var(--cor-branca);
 }
 
 .btn-carrinho{
+    background-color:var(--cor-branca);
+    border: 1px solid #f1c40f;
+    color: #f1c40f;
+    margin: 10px;
+}
+.btn-carrinho:hover{
     background-color: #f1c40f;
-    color: var(--cor-preta);
+    color: var(--cor-branca);
 }
 
 .btn-pesquisa{
-    background-color: var(--cor-logo);
-    color: var(--cor-preta);
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-logo);
+    color: var(--cor-logo);
     border-radius: 4px;
+}
+
+.btn-pesquisa:hover{
+    background-color: var(--cor-logo);
+    color: var(--cor-branca);
 }

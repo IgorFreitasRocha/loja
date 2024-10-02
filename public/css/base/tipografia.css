@@ -10,6 +10,12 @@
     line-height: 48px;
 }
 
+.text-sm{
+    font-size: 14px;
+    font-family: var(--font-noto-sans);
+    line-height: 20px;
+}
+
 .text-md{
     font-size: 18px;
     font-family: var(--font-noto-sans);
@@ -21,4 +27,18 @@
     font-family: var(--font-noto-sans);
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+.text-preco{
+    font-size: 21px;
+    font-family: var(--font-noto-sans);
+    font-weight: 500;
+    color: var(--cor-preco);
+}
+
+.text-preco-desconto{
+    font-size: 16px;
+    font-family: var(--font-noto-sans);
+    font-weight: 400;
+    text-decoration: line-through;
 }

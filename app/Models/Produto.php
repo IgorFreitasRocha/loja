@@ -13,5 +13,12 @@ class Produto extends Model
     protected $table = 'PRODUTO';
     protected $primaryKey = 'PRODUTO_ID';
 
+    public function Categoria(){
+        return $this->belongsTo(Categoria::class, 'CATEGORIA_ID', 'CATEGORIA_ID');
+    }
+
+    public function Imagem(){
+        return $this->hasMany(Imagem::class, 'PRODUTO_ID', 'PRODUTO_ID');
+    }
 
 }

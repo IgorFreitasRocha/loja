@@ -1,0 +1,12 @@
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.categoria img{
+    width: var(--w-logo-categoria);
+    height: var(--h-logo-categoria);
+    
+}
