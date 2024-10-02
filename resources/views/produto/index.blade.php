@@ -56,8 +56,6 @@
     
 
         <!-- Card Produtos -->
-        <h1 class="main-title">CARD PRODUTO</h1>
-
         <div class="cards-container">
         @foreach($produtos as $produto)
             <div class="card">
